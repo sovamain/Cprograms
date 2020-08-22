@@ -7,11 +7,16 @@ int main (void){
  do{
   if (n%k==0){
   n/=k;
-  printf("%d,",k);}
-  if (n==1) break;
+  printf("%d,",k);
+  }
+  if (n==1) 
+  break;
   while(n%k!=0){
-   if(k==2) k=3;
-   else k+=2;}
+   if(k==2) 
+   k=3;
+   else 
+   k+=2;
+  }
  }while(n%k==0);
  printf("prime factors of %d\n.",m);
  return 0;
